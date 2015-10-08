@@ -3,16 +3,20 @@ body {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
 	width: 80%;
+	margin: 0 auto;
+
 }
 h1{
 	color: #EB414D;
 	font-size: 3.5em;
+	margin-left: 30px;
 	text-shadow: 1px -1px 11px rgba(77, 150, 150, 0.52);
 	}
 h2{
 	color: #00585E;
 	font-size: 2.5em;
-}
+	text-decoration: overline;
+ }
 h3{
 	color: #454445;
 	font-size: 2em;
@@ -21,22 +25,48 @@ p{
 	line-height: 190%;
 }
 blockquote{
-	font-size: 1em;
+	font-size: .8em;
 	font-style: italic;
+  	width: 50%;
+	background: #00585E;
+	color: #fff;
+	padding: 30px;
+	margin: 20px 40px;
+	box-shadow: 7px 7px 5px #888888;
+	border-radius: 30px 0;
+	margin: auto;
 }
 aside{
 	background-color: #454445;
 	color: #fff;
-	width: 30%;
 	padding: 20px;
-	border-radius: 5.5px;
+	margin: 20px 0;
+	border-radius: 30px 0;
 }
 figure{
-	width: 20%;
+	width: 30%;
+	margin: 20px;
+}
+figure a{
+	display: block;
 }
 ul.circle {
-	list-style-type: circle;
-
+    list-style-type: circle;
+}
+/*
+#contents{
+	width: 15%;
+	float: left;
+	margin: 0 50px;
+}*/
+#asidewrap{
+	width: 20%;
+	float: left;
+	margin: 0 50px;
+}
+#content{
+	width:60%;
+	margin: auto;
 }
 /*-----------LINKS- URL'S-----------------*/
 a{
@@ -55,7 +85,7 @@ a:hover{
 a:active{
 
 }
-/*-----------FOOTER STYLES-----------------*/
+/*-----------Header STYLES-----------------*/
 header{
 	background: #009494;
 	color: #fff;
@@ -74,12 +104,16 @@ header a:visited{
 header a:hover{
 	color: #FF5729;
 }
+header ul{
+	list-style: none;
+	padding: 20px;
 
-header ul li {
+}
+header li {
 	font-size: 1.5em;
 	display: inline;
   	vertical-align: middle;
-  	padding: 20px;
+  	margin-right: 20px;
   	
 }
 
@@ -89,8 +123,6 @@ footer{
 	background: #009494;
 	color: #fff;
 	padding: 30px;
-	width: 100%;
-	margin: 50px;
 }
 footer a{
 	color: #fff;
