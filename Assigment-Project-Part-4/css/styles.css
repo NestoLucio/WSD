@@ -105,6 +105,56 @@ a:active{
 	Color: rgb(241,93,37);
 
 }
+/*------------Table Styles--------------*/
+table{
+width: 100%;
+font-size: 1.5em;
+border-top: 1px solid #EB414D;
+border-bottom: 1px solid #EB414D;
+border-collapse: collapse;
+margin: 0 auto;
+}
+th{
+	color: #454445;
+	text-align: left;
+	border-bottom: 1px solid #EB414D;
+
+}
+td{
+	color: #EB414D;
+	text-align: left;
+	border-bottom: 1px solid #EB414D;
+	}
+.heading{
+	font-size: 1.5em;
+	color:#454445;
+	text-align: center;
+}
+
+
+/*------------Form Styles--------------*/
+fieldset {
+	float: right;
+	border: 2px solid #fff;
+	padding: 20px;
+	margin-right: 57px;
+}
+
+footer div {
+	width: 350px;
+	float: right;
+	text-align:center;
+	padding: 0 50px;
+}
+
+footer div h3{
+	color: #fff;
+}
+textarea{
+	width: 400px;
+	height: 150px;
+}
+
 /*-----------nav STYLES-----------------*/
 nav{
 	background: #009494;
@@ -162,6 +212,7 @@ footer{
 	padding: 20px;
 	clear: left;
 	border-radius: 10px;
+	overflow: auto;
 }
 footer a{
 	color: #fff;
@@ -171,4 +222,7 @@ footer a:visited{
 }
 footer a:hover{
 	color: #FF5729;
+}
+#rate-one{
+	background: url(".../images/star_full.png);
 }
